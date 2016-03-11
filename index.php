@@ -137,16 +137,12 @@
                 </div>
             </div>
         </div>
-    </section>
-</div>
-
-    <section class="main-start">
         <div class="row">
             <div class="col-md-12">
-                <h4 class="fancy fade-in one">Looking for a great product design lead?</h4>
+                <h4 class="elegant fade-in one">Looking for a great product design lead?</h4>
             </div>
         </div>
-        <div class="container">
+        <div class="container hero-prompt">
         <div class="row">
             <div class="col-md-5 col-md-offset-1 fade-in three">
                 <a href="#view-work" class="btn ghost smoothscroll two">Check Out My Work</a>
@@ -158,6 +154,11 @@
             </div>
         </div>
         </div>
+    </section>
+</div>
+
+    <section class="main-start">
+        
     </section>
 
     <section class="content-area">
@@ -342,7 +343,7 @@
             </div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <button class="btn ghost" value="submit">Say Hello</button>
+                    <button class="btn btn-mini-ghost" value="submit">Say Hello</button>
                 </div>
             </div>
         </form>

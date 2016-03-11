@@ -6354,7 +6354,7 @@ a:hover {
 
 .main-start {
   background: rgba(255, 255, 255, 0.9);
-  padding: 2% 0 40%; }
+  padding: 2% 0 4%; }
 
 .sep-bar {
   margin: 0 10px;
@@ -6375,6 +6375,14 @@ h3, h4, h5, h6 {
 
 .fancy {
   font-family: "lust-script"; }
+
+.elegant {
+  font-family: "lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 100; }
+
+h4.elegant {
+  color: #fff;
+  font-size: 3rem; }
 
 h1.fancy {
   font-size: 1rem; }
@@ -6442,6 +6450,9 @@ h4 {
   .hero p {
     font-weight: 200;
     color: #efefef; }
+
+.hero-prompt {
+  margin-bottom: 6%; }
 
 .masonry {
   margin: 10px auto; }
@@ -6511,19 +6522,20 @@ img {
 button.btn.ghost, a.btn.ghost {
   color: #4edfec;
   width: 100%;
-  background: #fff;
+  background: rgba(240, 248, 255, 0.2);
   border: 1px solid #C6C2CA;
   padding: 20px;
   margin: 10px 0px;
   display: inline-block;
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  font-weight: 200; }
 
 button.btn.ghost:hover, a.btn.ghost:hover {
   transform: scale(1.1);
   color: #4eecb6;
-  background: rgba(240, 248, 255, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   -webkit-animation: grow 0.3s cubic-bezier(0.855, 0.12, 0.34, 0.85) 1, pulse 4s ease-out infinite alternate-reverse; }
 
 @-webkit-keyframes grow {
@@ -6536,9 +6548,9 @@ button.btn.ghost:hover, a.btn.ghost:hover {
   0% {
     background: #fff; }
   50% {
-    background: rgba(240, 248, 255, 0.9); }
+    background: rgba(0, 0, 0, 0.9); }
   100% {
-    background: rgba(226, 255, 249, 0.9); } }
+    background: #000; } }
 
 .btn-mini-ghost {
   font-weight: 200;

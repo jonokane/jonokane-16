@@ -58,7 +58,7 @@ a:hover{
 .main-start{
 	background:rgba(255, 255, 255, 0.9);
 	// border-top: 1px solid $highlight-turq;
-	padding: 2% 0 40%;
+	padding: 2% 0 4%;
 	// margin-bottom: 4%;
 	// border-bottom: 1px solid $highlight-turq;
 }
@@ -87,6 +87,17 @@ h3, h4, h5, h6{
   font-family: "lust-script";
 }
 
+.elegant{
+	font-family: "lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:100;
+}
+
+h4.elegant{
+	color:#fff;
+	font-size:3rem;
+}
+
+
 // .navbar .fancy{
 // 	position:relative;
 // 	top:12px;
@@ -100,9 +111,9 @@ h1.fancy{
 	font-size:1rem;
 }
 
-  h4.fancy, h3.fancy{
-  // border-bottom:1px solid $purp-op30;
-  }
+h4.fancy, h3.fancy{
+// border-bottom:1px solid $purp-op30;
+}  
 
 .hero h2{
 	text-align:center;
@@ -199,6 +210,10 @@ h4{
 		font-weight:200;
 		color: #efefef;
 	}
+}
+
+.hero-prompt{
+	margin-bottom:6%;
 }
 
 
@@ -303,7 +318,7 @@ h4{
 button.btn.ghost, a.btn.ghost{
 	color:$highlight-turq;
 	width:100%;
-	background:#fff;
+	background:$light-blue-op20;
 	border:1px solid $gray-mellow-purp;
 	padding:20px;
 	margin:10px 0px;
@@ -312,12 +327,13 @@ button.btn.ghost, a.btn.ghost{
 	text-transform:uppercase;
 	// font-weight:200;
 	font-size:1.4rem;
+	font-weight:200;
 	
 }
 button.btn.ghost:hover, a.btn.ghost:hover{
 	transform: scale(1.1);
 	color:$highlight-green;
-	background: $light-blue-op90;
+	background: $black-op90;
     -webkit-animation: 
 		grow .3s cubic-bezier(0.855, 0.120, 0.340, 0.850) 1,
 		pulse 4s ease-out infinite alternate-reverse;
@@ -330,8 +346,8 @@ button.btn.ghost:hover, a.btn.ghost:hover{
 
 @-webkit-keyframes pulse {
     0%{background: #fff;}
-    50% {background: $light-blue-op90;}
-    100%{background: $light-green-op90;}
+    50% {background: $black-op90;}
+    100%{background: $black;}
     
 }
 
