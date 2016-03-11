@@ -6640,6 +6640,12 @@ dl dt {
 .successMessage {
   text-align: center; }
 
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  box-sizing: border-box; }
+
 ::-webkit-input-placeholder {
   color: #c7c7c7; }
 
