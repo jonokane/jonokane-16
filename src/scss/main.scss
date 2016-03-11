@@ -87,6 +87,15 @@ h3, h4, h5, h6{
   font-family: "lust-script";
 }
 
+.navbar .fancy{
+	position:relative;
+	top:12px;
+    padding: 14px 15px;
+    font-size: 20px;
+    line-height: 22px;
+    height: 50px;
+}
+
 h1.fancy{
 	font-size:1rem;
 }
@@ -134,6 +143,15 @@ h4{
 
 // //nav stuff
 
+
+
+// $navbar-default-color: $highlight-turq;
+
+.navbar-toggle .icon-bar{
+	background: $highlight-turq;
+}
+
+
 .top-bar{
 	// background: rgba(44, 43, 50, 0.9);
 	height:2.85rem;
@@ -157,8 +175,8 @@ h4{
 	margin:0 !important;
 	font-size:24px;
 }
-.top-bar.expanded {
-  background: $gray-dark-op90;
+.top-bar {
+  background: $black-op85;
 }
 
 //bg

@@ -1075,7 +1075,7 @@ a {
   text-decoration: none; }
   a:hover, a:focus {
     color: #23527c;
-    text-decoration: underline; }
+    text-decoration: none; }
   a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
@@ -3065,7 +3065,7 @@ fieldset[disabled] a.btn {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
     color: #23527c;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
   fieldset[disabled] .btn-link:hover,
@@ -6382,6 +6382,14 @@ h3, h4, h5, h6 {
 .fancy {
   font-family: "lust-script"; }
 
+.navbar .fancy {
+  position: relative;
+  top: 12px;
+  padding: 14px 15px;
+  font-size: 20px;
+  line-height: 22px;
+  height: 50px; }
+
 h1.fancy {
   font-size: 1rem; }
 
@@ -6412,6 +6420,9 @@ h4 {
 .caps {
   text-transform: uppercase; }
 
+.navbar-toggle .icon-bar {
+  background: #4edfec; }
+
 .top-bar {
   height: 2.85rem; }
 
@@ -6429,8 +6440,8 @@ h4 {
   margin: 0 !important;
   font-size: 24px; }
 
-.top-bar.expanded {
-  background: rgba(44, 43, 50, 0.9); }
+.top-bar {
+  background: rgba(0, 0, 0, 0.85); }
 
 .main-bg {
   background: url("../img/bg/bg-hero.jpg");
