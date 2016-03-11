@@ -47,20 +47,20 @@ a:hover{
 //layout stuff
 .content-area{
 	// margin:20% 0;
-	border-top:1px solid $highlight-turq;
+	// border-top:1px solid $highlight-turq;
 	background:rgba(255, 255, 255, 0.9);
-	margin-bottom:4%;
-	padding-bottom:4%;
-	border-bottom: 1px solid $highlight-turq;
+	// margin-bottom:4%;
+	padding-bottom:40%;
+	// border-bottom: 1px solid $highlight-turq;
 }
 
 //visual and other layout stuff
 .main-start{
 	background:rgba(255, 255, 255, 0.9);
-	border-top: 1px solid $highlight-turq;
-	padding: 2% 0 4%;
-	margin-bottom: 4%;
-	border-bottom: 1px solid $highlight-turq;
+	// border-top: 1px solid $highlight-turq;
+	padding: 2% 0 40%;
+	// margin-bottom: 4%;
+	// border-bottom: 1px solid $highlight-turq;
 }
 .sep-bar{
 	margin:0 10px;
@@ -87,14 +87,14 @@ h3, h4, h5, h6{
   font-family: "lust-script";
 }
 
-.navbar .fancy{
-	position:relative;
-	top:12px;
-    padding: 14px 15px;
-    font-size: 20px;
-    line-height: 22px;
-    height: 50px;
-}
+// .navbar .fancy{
+// 	position:relative;
+// 	top:12px;
+//     padding: 14px 15px;
+//     font-size: 20px;
+//     line-height: 22px;
+//     height: 50px;
+// }
 
 h1.fancy{
 	font-size:1rem;
@@ -487,6 +487,13 @@ dl dt{
 
 .successMessage{
 	text-align:center;
+}
+
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px;        // Make inputs at least the height of their button counterpart
+  .box-sizing(border-box); // Makes inputs behave like true block-level elements
 }
 
 

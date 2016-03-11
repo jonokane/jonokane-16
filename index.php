@@ -289,23 +289,66 @@
 
 
 
-<form>
+<!-- <form>
 <div class="form-inline">
+<div class="col-md-6">
   <fieldset class="form-group">
     <label for="formGroupExampleInput">What's your name?</label>
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
   </fieldset>
+</div>
+<div class="col-md-6">
   <fieldset class="form-group">
     <label for="formGroupExampleInput2">And what's your email?</label>
     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
   </fieldset>
+</div>
   </div>
   <div class="form-group">
     <label>Message
         <textarea placeholder="So, what's up?" rows="5" required name="message" id="message"></textarea>
     </label>
   </div>
-</form>
+</form> -->
+
+<div class="row">
+    <div class="col-md-10 col-md-offset-1 contact-form">
+        <div id="contactMessage"></div>
+        <form name="contact_form" id="JqAjaxForm">
+            <div class="row">
+                <div class="col-md-6">
+                <div class="input-group">
+                    <label for="name">Your Name
+                        <input type="text" placeholder="What's your name?" required name="name" class="form-control input-block-level" id="name">
+                    </label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                <div class="input-group">
+                    <label for="email">Email
+                        <input type="email" placeholder="And what's your email?" required name="email" class="form-control" id="email">
+                    </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                <div class="input-group input-group-lg">
+                    <label for="message">Message
+                        <textarea placeholder="So, what's up?" rows="5" required name="message" class="form-control" id="message"></textarea>
+                    </label>
+                </div>
+                <div class="input-group input-group-lg">
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <button class="btn ghost" value="submit">Say Hello</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
 
 
 
