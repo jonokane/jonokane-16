@@ -129,7 +129,7 @@
         <div class="row">
             <div class="col-md-12" id="me">
                 <div class="hero fade-in one">
-                    <h2 class="fancy">Hi There!</h2>
+                    <h2 class="fancy">Hello There!</h2>
                     <p>I'm <a href="http://about.me/jonokane" target="_blank">Jono Kane</a>, a San Francisco-based UX professional. Specifically, I'm a full-stack product designer, who enjoys solving product and interaction design challenges, as well as prototyping and building front-ends for mobile, web, and tablet.</p>
                     <p>I have a passion for creating exciting and unique media experiences on all screens. My career is primarily focused on mobile-native, mobile-web and desktop experiences.
                     </p>
@@ -148,10 +148,10 @@
         </div>
         <div class="container">
         <div class="row">
-            <div class="col-md-5 col-md-offset-1">
+            <div class="col-md-5 col-md-offset-1 fade-in three">
                 <a href="#view-work" class="btn ghost smoothscroll two">Check Out My Work</a>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 fade-in four">
                 <a href="#contact" class="btn ghost smoothscroll three">Hit Me Up</a>
             </div>
             <div class="col-md-1">
