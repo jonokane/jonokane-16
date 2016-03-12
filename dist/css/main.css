@@ -6350,7 +6350,7 @@ a:hover {
 
 .content-area {
   background: rgba(255, 255, 255, 0.9);
-  padding-bottom: 40%; }
+  padding-bottom: 4%; }
 
 .main-start {
   background: rgba(255, 255, 255, 0.9);
@@ -6369,6 +6369,15 @@ a:hover {
 
 .navbar-inner {
   text-align: center; }
+
+.navbar-collapse {
+  background: rgba(0, 0, 0, 0.85); }
+
+.navbar {
+  background: rgba(0, 0, 0, 0.85); }
+
+.navbar-toggle .icon-bar {
+  background: #4edfec; }
 
 h3, h4, h5, h6 {
   color: #2c2b32; }
@@ -6405,17 +6414,15 @@ h4 {
 
 .item h5 {
   text-align: center;
-  font-weight: 200;
-  margin-top: 1rem; }
+  font-weight: 500;
+  margin-top: 1rem;
+  color: #615F6D; }
 
 .small {
   font-size: 80%; }
 
 .caps {
   text-transform: uppercase; }
-
-.navbar-toggle .icon-bar {
-  background: #4edfec; }
 
 .top-bar {
   height: 2.85rem; }
@@ -6433,9 +6440,6 @@ h4 {
   line-height: 2.8rem !important;
   margin: 0 !important;
   font-size: 24px; }
-
-.top-bar {
-  background: rgba(0, 0, 0, 0.85); }
 
 .main-bg {
   background: url("../img/bg/bg-hero.jpg");
@@ -6764,3 +6768,7 @@ footer {
   footer .colophon ul li {
     margin-left: 1rem;
     font-size: .8rem; }
+
+@media (min-width: 768px) {
+  .navbar-collapse.collapse {
+    background: none; } }

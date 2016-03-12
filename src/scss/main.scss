@@ -50,7 +50,7 @@ a:hover{
 	// border-top:1px solid $highlight-turq;
 	background:rgba(255, 255, 255, 0.9);
 	// margin-bottom:4%;
-	padding-bottom:40%;
+	padding-bottom:4%;
 	// border-bottom: 1px solid $highlight-turq;
 }
 
@@ -71,6 +71,8 @@ a:hover{
 	text-align:center;
 }
 
+
+//nav
 .nav.nav-center {
     margin:0;
     float:none;
@@ -78,6 +80,21 @@ a:hover{
 .navbar-inner{
     text-align:center;
 }
+
+.navbar-collapse{
+	background: $black-op85;
+}
+.navbar{
+	background: $black-op85;
+}
+
+// $navbar-default-color: $highlight-turq;
+
+.navbar-toggle .icon-bar{
+	background: $highlight-turq;
+}
+
+
 
 //headings
 h3, h4, h5, h6{
@@ -136,8 +153,9 @@ h4{
 
 .item h5{
 	text-align:center;
-	font-weight:200;
+	font-weight:500;
 	margin-top:1rem;
+	color: $gray-dark-purp;
 }
 
 //custom text styles
@@ -149,17 +167,6 @@ h4{
 }
 .caps{
 	text-transform:uppercase;
-}
-
-
-// //nav stuff
-
-
-
-// $navbar-default-color: $highlight-turq;
-
-.navbar-toggle .icon-bar{
-	background: $highlight-turq;
 }
 
 
@@ -186,9 +193,9 @@ h4{
 	margin:0 !important;
 	font-size:24px;
 }
-.top-bar {
-  background: $black-op85;
-}
+// .top-bar {
+//   background: $black-op85;
+// }
 
 //bg
 .main-bg{
@@ -661,3 +668,7 @@ footer{
 		}
 	}
 }
+
+
+
+@import "responsive-jk";
