@@ -6772,4 +6772,11 @@ footer {
   .navbar-collapse.collapse {
     background: none; }
   .navbar-right {
-    margin-right: 0; } }
+    margin-right: 0; }
+  .center-grid-fix {
+    position: relative;
+    left: -15px; } }
+
+@media (min-width: 767px) {
+  .hero h2 {
+    font-size: 4rem; } }

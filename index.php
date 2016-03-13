@@ -143,7 +143,7 @@
             </div>
         </div>
         <div class="container hero-prompt">
-        <div class="row">
+        <div class="row center-grid-fix">
             <div class="col-md-5 col-md-offset-1 fade-in three">
                 <a href="#view-work" class="btn ghost smoothscroll two">Check Out My Work</a>
             </div>
