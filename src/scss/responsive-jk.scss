@@ -1,6 +1,8 @@
-@media (min-width: $screen-sm-min)
-{
-	.navbar-collapse.collapse {
-    background: none;
+@media (min-width: $screen-sm-min) {
+    .navbar-collapse.collapse {
+        background: none;
+    }
+    .navbar-right {
+    margin-right: 0;
 }
 }

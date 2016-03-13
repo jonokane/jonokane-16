@@ -6436,10 +6436,9 @@ h4 {
 .top-bar-section ul li {
   background: none; }
 
-.top-bar-section ul li a.soc-link {
-  line-height: 2.8rem !important;
+#navbar ul li a.soc-link {
   margin: 0 !important;
-  font-size: 24px; }
+  font-size: 1rem; }
 
 .main-bg {
   background: url("../img/bg/bg-hero.jpg");
@@ -6771,4 +6770,6 @@ footer {
 
 @media (min-width: 768px) {
   .navbar-collapse.collapse {
-    background: none; } }
+    background: none; }
+  .navbar-right {
+    margin-right: 0; } }
