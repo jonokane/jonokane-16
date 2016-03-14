@@ -6570,12 +6570,20 @@ button.btn.ghost:hover, a.btn.ghost:hover {
   position: relative;
   top: 2px; }
 
+a.close-reveal-modal {
+  cursor: pointer;
+  border: 1px solid #C6C2CA;
+  font-size: 1.5rem;
+  border-radius: 100px;
+  padding: 6px 8px 0px 8px;
+  float: right;
+  margin-top: 1rem; }
+
 .modal-folio-content h2 {
   font-size: 3rem;
   font-weight: 200;
   width: 100%;
-  border-bottom: 1px solid #c7c7c7;
-  margin-bottom: 1rem; }
+  margin-bottom: 0; }
 
 .modal-folio-content dt {
   width: 100%;
@@ -6591,7 +6599,8 @@ button.btn.ghost:hover, a.btn.ghost:hover {
     border: 1px solid #efefef; }
   .folio-slider .caption {
     font-size: .7rem;
-    color: #666; }
+    color: #666;
+    margin-top: 0.5rem; }
 
 .slider-nav li {
   margin: 10px;
@@ -6613,6 +6622,7 @@ button.btn.ghost:hover, a.btn.ghost:hover {
 
 ul.skills {
   margin: 0;
+  padding: 0;
   float: left;
   margin-bottom: 0.3rem; }
 
@@ -6627,6 +6637,11 @@ ul.skills {
 
 dl dt {
   clear: both; }
+
+dd {
+  float: left;
+  margin-bottom: 1rem;
+  margin-top: .5rem; }
 
 .parallax {
   perspective: 1px;
@@ -6775,7 +6790,9 @@ footer {
     margin-right: 0; }
   .center-grid-fix {
     position: relative;
-    left: -15px; } }
+    left: -15px; }
+  .modal-content {
+    margin: 2% 3%; } }
 
 @media (max-width: 768px) {
   .hero h2 {

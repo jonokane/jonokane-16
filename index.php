@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
 
-    
+    <link rel="stylesheet" href="dist/css/ss-standard.css">
     <link rel="stylesheet" href="dist/css/ss-social-circle.css">
     <link rel="stylesheet" href="dist/css/ss-glyphish-outlined.css">
     <link rel="stylesheet" href="dist/css/main.css">
@@ -454,7 +454,8 @@
 </footer>
 
 <!-- Modal -->
-    <div id="modal-box" class="reveal-modal modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">hi!</div>
+    <!-- <div id="modal-box" class="reveal-modal modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"></div> -->
+    <div id="modal-box" class="reveal-modal modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"></div>
 
 
 
@@ -470,6 +471,7 @@
 <script src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 
+<script src="dist/js/ss-standard.js"></script>
 <script src="dist/js/ss-social.js"></script>
 <script src="dist/js/ss-glyphish-outlined.js"></script>
 <script src="dist/js/app.js"></script>

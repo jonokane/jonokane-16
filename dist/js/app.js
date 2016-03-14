@@ -41,8 +41,12 @@ $(document).ready(function() {
             $('.folio-slider').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                arrows: true,
+                arrows: false,
                 fade: true,
+                speed: 5000,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                infinite:true,
                 asNavFor: '.slider-nav'
             });
             $('.slider-nav').slick({
