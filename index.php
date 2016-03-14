@@ -7,6 +7,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title>jonokane.com - Full-stack designer</title>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+
     
     <link rel="stylesheet" href="dist/css/ss-social-circle.css">
     <link rel="stylesheet" href="dist/css/ss-glyphish-outlined.css">
@@ -287,9 +290,6 @@
 
 
 
-
-
-
 <!-- <form>
 <div class="form-inline">
 <div class="col-md-6">
@@ -462,12 +462,13 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="bower_components/tether/dist/js/tether.min.js"></script>
-<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+<!-- <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script> -->
+<script src="dist/js/bootstrap.min.js"></script>
 
 <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
 
 <script src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
-<!-- <script src="bower_components/slick/dist/slick.min.js"></script> -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 
 <script src="dist/js/ss-social.js"></script>
 <script src="dist/js/ss-glyphish-outlined.js"></script>

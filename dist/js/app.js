@@ -53,18 +53,9 @@ $(document).ready(function() {
                 centerMode: true,
                 focusOnSelect: true
             });
-
-
-
-
-
-            // $('.folio-slider').slick({
-            //     setPosition: 0,
-            //     dots: true,
-            //     lazyLoad: 'ondemand'
-            // });
         }
     });
+
 
     //folio items
     // $('.folio-fluence-marketing').click(function() {
