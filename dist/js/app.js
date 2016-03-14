@@ -91,13 +91,27 @@ $(document).ready(function() {
     //     });
     // });
 
-$('.folio-shift').click(function() {
-    $('#modal-box').modal()   
-    // $('#modal-box').modal({
-    //     // show: false,
-    //     remote: 'folio-content/folio-shift.html'
-    // });
-}); 
+// $('.folio-shift').click(function() {
+//     $('#modal-box').modal()   
+//     // $('#modal-box').modal({
+//     //     // show: false,
+//     //     remote: 'folio-content/folio-shift.html'
+//     // });
+// }); 
+
+
+
+ $(function() {
+     $('.folio-shift').on('click', function() {
+         var $this = $(this).data('target');
+         $('#modal-box').load('folio-content/folio-shift.html', function(response, status, xhr) {
+             if (status == "success") {
+                 $(this).modal('show');
+             }
+         });
+     });
+ });
+
 
     // $('.folio-saratoga-speed').click(function() {
     //     $('#modal-box').modal('reveal', 'open', {

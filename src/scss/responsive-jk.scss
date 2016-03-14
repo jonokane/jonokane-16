@@ -12,7 +12,7 @@
 	}
 }
 
-@media (min-width: $screen-xs-max) {
+@media (max-width: $screen-sm-min) {
 	.hero h2{
 		font-size:4rem;
 	}

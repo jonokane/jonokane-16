@@ -6777,6 +6777,6 @@ footer {
     position: relative;
     left: -15px; } }
 
-@media (min-width: 767px) {
+@media (max-width: 768px) {
   .hero h2 {
     font-size: 4rem; } }

@@ -209,7 +209,7 @@
                               <h5>Fluence.io (Web App)</h5>
                           </div>
                       </a>
-                      <a href="#" data-reveal-id="modal-box-3" class="modal-cta folio-shift">
+                      <a href="#" data-reveal-id="modal-box" class="modal-cta folio-shift">
                           <div class="item">
                               <div class="thumb" style="background-image:url('img/work/shift-thumb.jpg')"></div>
                               <h5>Shift</h5>
@@ -453,8 +453,8 @@
   </div>
 </footer>
 
-
-    <div id="modal-box" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"></div>
+<!-- Modal -->
+    <div id="modal-box" class="reveal-modal modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">hi!</div>
 
 
 
@@ -467,7 +467,7 @@
 <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
 
 <script src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
-<script src="bower_components/slick/dist/slick.min.js"></script>
+<!-- <script src="bower_components/slick/dist/slick.min.js"></script> -->
 
 <script src="dist/js/ss-social.js"></script>
 <script src="dist/js/ss-glyphish-outlined.js"></script>
