@@ -61,43 +61,24 @@ $(document).ready(function() {
     });
 
 
-    //folio items
-    // $('.folio-fluence-marketing').click(function() {
-    //     $('#modal-box').modal('reveal', 'open', {
-    //         url: 'folio-content/folio-fluence-marketing.html',
-    //         multiple_opened: true
-    //     });
-    // });
 
-    // $('.secondary-modal').click(function(){
-        
-    // })
-
-    // $('.folio-fluence-app').click(function() {
-    //     $('#modal-box').modal('reveal', 'open', {
-    //         url: 'folio-content/folio-fluence-app.html',
-    //         multiple_opened: true
-    //     });
-    // });
-
-    // $('.folio-shift').click(function() {
-    //     $('#modal-box').modal('open', {
-    //         url: 'folio-content/folio-shift.html',
-    //     });
-    // });
-
-// $('.folio-shift').click(function() {
-//     $('#modal-box').modal()   
-//     // $('#modal-box').modal({
-//     //     // show: false,
-//     //     remote: 'folio-content/folio-shift.html'
-//     // });
-// }); 
+ $(function() {
+     $('.folio-fluence-app').on('click', function() {
+        event.preventDefault();
+         var $this = $(this).data('target');
+         $('#modal-box').load('folio-content/folio-fluence-app.html', function(response, status, xhr) {
+             if (status == "success") {
+                 $(this).modal('show');
+             }
+         });
+     });
+ });
 
 
 
  $(function() {
      $('.folio-shift').on('click', function() {
+        event.preventDefault();
          var $this = $(this).data('target');
          $('#modal-box').load('folio-content/folio-shift.html', function(response, status, xhr) {
              if (status == "success") {
@@ -107,12 +88,29 @@ $(document).ready(function() {
      });
  });
 
+  $(function() {
+     $('.folio-saratoga-speed').on('click', function() {
+        event.preventDefault();
+         var $this = $(this).data('target');
+         $('#modal-box').load('folio-content/folio-saratoga-speed.html', function(response, status, xhr) {
+             if (status == "success") {
+                 $(this).modal('show');
+             }
+         });
+     });
+ });
 
-    // $('.folio-saratoga-speed').click(function() {
-    //     $('#modal-box').modal('reveal', 'open', {
-    //         url: 'folio-content/folio-saratoga-speed.html',
-    //     });
-    // });
+  $(function() {
+     $('.folio-telenav').on('click', function() {
+        event.preventDefault();
+         var $this = $(this).data('target');
+         $('#modal-box').load('folio-content/folio-telenav.html', function(response, status, xhr) {
+             if (status == "success") {
+                 $(this).modal('show');
+             }
+         });
+     });
+ });
 
     // $('.folio-telenav').click(function() {
     //     $('#modal-box').modal('reveal', 'open', {
