@@ -43,7 +43,7 @@ $(document).ready(function() {
                 slidesToScroll: 1,
                 arrows: false,
                 fade: true,
-                speed: 5000,
+                speed: 1000,
                 autoplay: true,
                 autoplaySpeed: 5000,
                 infinite: true,
