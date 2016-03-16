@@ -121,11 +121,6 @@
     </nav>
 
 
-
-
-
-
-
 <div class="container">
 
     <section class="hero-intro">
@@ -455,7 +450,7 @@
 
 <!-- Modal -->
     <!-- <div id="modal-box" class="reveal-modal modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"></div> -->
-    <div id="modal-box" class="reveal-modal modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"></div>
+    <div id="modal-box" class="reveal-modal modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" tabindex='-1'></div>
 
 
 

@@ -35,7 +35,10 @@ a:hover{
 		color:$highlight-green;
 	};
 
-
+hr{
+	margin-top: 12px;
+	margin-bottom:12px;
+}
 
 .text-center {
   @include center-block;

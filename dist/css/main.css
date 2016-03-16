@@ -6340,6 +6340,10 @@ a {
 a:hover {
   color: #4eecb6; }
 
+hr {
+  margin-top: 12px;
+  margin-bottom: 12px; }
+
 .text-center {
   display: block;
   margin-left: auto;
