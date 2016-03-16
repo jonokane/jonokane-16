@@ -97,7 +97,13 @@ hr{
 	background: $highlight-turq;
 }
 
-
+.navbar-brand{
+	 position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
 
 //headings
 h3, h4, h5, h6{
@@ -114,7 +120,7 @@ h3, h4, h5, h6{
 
 h4.elegant{
 	color:#fff;
-	font-size:3rem;
+	font-size:2.7rem;
 }
 
 
