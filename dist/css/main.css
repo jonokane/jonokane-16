@@ -6328,7 +6328,8 @@ pre {
   margin-right: auto; }
 
 body {
-  font-family: "lato","Helvetica Neue",Helvetica,Arial,sans-serif; }
+  font-family: "lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  position: relative; }
 
 p {
   color: #2c2b32; }

@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-fixed-top top-bar">
+    <nav class="navbar navbar-fixed-top top-bar" id="jk-nav">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -338,11 +338,13 @@
     <!-- Modal -->
     <!-- <div id="modal-box" class="reveal-modal modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"></div> -->
     <div id="modal-box" class="reveal-modal modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" tabindex='-1'></div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="bower_components/tether/dist/js/tether.min.js"></script>
     <!-- <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script> -->
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="bower_components/scrollspy/build/jquery.scrollspy.js"></script>
     <script src="bower_components/masonry/dist/masonry.pkgd.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
     <script src="dist/js/ss-standard.js"></script>

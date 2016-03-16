@@ -245,6 +245,15 @@ $(document).ready(function() {
     });
 
 
+    //scrollspy
+    $(function() {
+        $('body').scrollspy({
+            target: '#jk-nav',
+            offset: 50
+        });
+    });
+
+
     // jkcontact
     $(function() {
         $("#JqAjaxForm").submit(function(e) {
