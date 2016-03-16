@@ -105,6 +105,14 @@ hr{
 //     margin: auto;
 // }
 
+.nav-item a:hover{
+	color:$highlight-green;
+}
+
+.nav-item a:focus {
+	color:#fff;
+}
+
 //headings
 h3, h4, h5, h6{
 	color:$gray-dark;

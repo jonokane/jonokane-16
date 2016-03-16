@@ -3555,7 +3555,7 @@ tbody.collapse.in {
       padding: 10px 15px; }
       .nav > li > a:hover, .nav > li > a:focus {
         text-decoration: none;
-        background-color: #eeeeee; }
+        background-color: #000; }
     .nav > li.disabled > a {
       color: #efefef; }
       .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
@@ -3564,7 +3564,7 @@ tbody.collapse.in {
         background-color: transparent;
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color: #eeeeee;
+    background-color: #000;
     border-color: #337ab7; }
   .nav .nav-divider {
     height: 1px;
@@ -6382,6 +6382,12 @@ hr {
 
 .navbar-toggle .icon-bar {
   background: #4edfec; }
+
+.nav-item a:hover {
+  color: #4eecb6; }
+
+.nav-item a:focus {
+  color: #fff; }
 
 h3, h4, h5, h6 {
   color: #2c2b32; }
