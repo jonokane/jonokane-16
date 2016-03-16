@@ -29,8 +29,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            <a class="navbar-brand fancy" href="#">
+                <span class="fade-in one">j</span><span class="fade-in two">o</span><span class="fade-in three">n</span><span class="fade-in four">o</span><span class="fade-in five">k</span><span class="fade-in six">a</span><span class="fade-in seven">n</span><span class="fade-in eight">e</span><span class="fade-in nine">.com</span></a>
         </div>
-        <a class="navbar-brand fancy" href="#">jonokane.com</a>
         <div id="navbar" class="navbar-collapse collapse" role="navigation">
             <ul class="nav navbar-nav">
                 <li class="nav-item active fade-in one"><a href="#me" class="smoothscroll"><span class="ss-icon ss-glyphish-outline">smile</span>Me</a></li>
@@ -46,7 +47,6 @@
         </div>
         <!--/.nav-collapse -->
     </nav>
-
     <div class="container">
         <section class="hero-intro">
             <div class="row">

@@ -3,21 +3,27 @@
         background: none;
     }
     .navbar-right {
-    margin-right: 0;
-	}
-	//fix for the ole weird not-so-centered main CTA buttons
-	.center-grid-fix{
-		position: relative;
-		left: -15px;
-	}
-	.modal-content{
-		margin:2% 3%;
-	}
+        margin-right: 0;
+    }
+    //fix for the ole weird not-so-centered main CTA buttons
+    .center-grid-fix {
+        position: relative;
+        left: -15px;
+    }
+    .modal-content {
+        margin: 2% 3%;
+    }
+    .navbar-brand {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        margin: auto;
+    }
 }
 
 @media (max-width: $screen-sm-min) {
-	.hero h2{
-		font-size:4rem;
-	}
-		
+    .hero h2 {
+        font-size: 4rem;
+    }
 }

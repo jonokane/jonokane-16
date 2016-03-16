@@ -97,13 +97,13 @@ hr{
 	background: $highlight-turq;
 }
 
-.navbar-brand{
-	 position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    margin: auto;
-}
+// .navbar-brand{
+// 	position: absolute;
+//     width: 100%;
+//     left: 0;
+//     text-align: center;
+//     margin: auto;
+// }
 
 //headings
 h3, h4, h5, h6{
@@ -640,6 +640,36 @@ dd{
   -webkit-animation-delay: 1.3s;
   -moz-animation-delay: 1.3s;
   animation-delay: 1.3s;
+}
+
+.fade-in.five {
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+  animation-delay: 1.7s;
+}
+
+.fade-in.six {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.fade-in.seven {
+  -webkit-animation-delay: 2.3s;
+  -moz-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+}
+
+.fade-in.eight {
+  -webkit-animation-delay: 2.7s;
+  -moz-animation-delay: 2.7s;
+  animation-delay: 2.7s;
+}
+
+.fade-in.nine {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 
