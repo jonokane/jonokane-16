@@ -6801,13 +6801,16 @@ footer {
     color: #efefef;
     font-weight: 200;
     text-transform: uppercase;
-    border-bottom: 1px solid #efefef;
-    width: 100%; }
+    border-bottom: 1px solid #484654;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 5px; }
   footer p {
     font-weight: 200;
     color: #efefef; }
   footer ul {
-    margin: 0; }
+    margin: 0;
+    padding: 0; }
   footer ul li {
     list-style-type: none; }
   footer a {
@@ -6825,9 +6828,18 @@ footer {
   footer .colophon p {
     margin-bottom: 0;
     font-size: .8rem; }
+  footer .colophon ul {
+    margin-left: 0;
+    padding-left: 0; }
   footer .colophon ul li {
-    margin-left: 1rem;
     font-size: .8rem; }
+  footer .colophon .col-md-3, footer .colophon .col-md-4 {
+    padding-left: 0; }
+  footer .copyline {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid #484654;
+    padding-top: 2rem; }
 
 @media (min-width: 768px) {
   .navbar-collapse.collapse {

@@ -326,16 +326,23 @@
                 </div>
                 <div class="col-md-6 colophon">
                     <h6>Colophon</h6>
-                    <p>This site was hand-built with love and fully <a href="https://github.com/jonokane/jk-folio-15">open-source</a>, in case you're interested in seeing how I built it. I used the following fantastic tools and frameworks:</p>
+                    <p>This site was hand-built with love and fully <a href="https://github.com/jonokane/jonokane-16">open-source</a>, in case you're interested in seeing how I built it. I used the following fantastic tools and frameworks:</p>
+                    <div class="col-md-3">
                     <ul>
                         <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
                         <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
                         <li><a href="http://masonry.desandro.com/" target="_blank">Masonry</a></li>
-                        <li><a href="https://typekit.com/" target="_blank">Typekit</a></li>
+                        <li><a href="http://kenwheeler.github.io/slick/" target="_blank">Slick</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4">
+                    <ul>
                         <li><a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a></li>
                         <li><a href="http://adobe.com" target="_blank">Adobe CC</a></li>
+                        <li><a href="https://typekit.com/" target="_blank">Typekit</a></li>
                         <li><a href="https://github.com/" target="_blank">Github</a></li>
                     </ul>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <h6>Social</h6>
@@ -349,7 +356,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p class="small caps centered">All work &copy;2015 unless otherwise noted</p>
+                    <p class="small caps centered copyline">All work &copy;2016 unless otherwise noted</p>
                 </div>
             </div>
         </div>
