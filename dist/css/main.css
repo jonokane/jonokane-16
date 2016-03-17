@@ -6583,6 +6583,9 @@ button.btn.ghost:hover, a.btn.ghost:hover {
   color: #215F65;
   opacity: 0.2; }
 
+.btn-submit-ghost-off.active {
+  opacity: 1; }
+
 .ss-icon {
   margin-right: 4px;
   position: relative;

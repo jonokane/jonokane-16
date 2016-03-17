@@ -285,4 +285,21 @@ $(document).ready(function() {
 
 
 
+    var $fields = $("#JqAjaxForm :input");
+    $fields.keyup(function() {
+        var $emptyFields = $fields.filter(function() {
+
+            // remove the $.trim if whitespace is counted as filled
+            return $.trim(this.value) === "";
+        });
+
+        if (!$emptyFields.length) {
+            $( "#contact-submit" ).last().addClass( "active" );
+        } else {
+            // alert("uh-oh, you forgot to fill something out");
+        }
+    });
+
+
+
 });
