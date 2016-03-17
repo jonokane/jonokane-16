@@ -384,6 +384,14 @@ button.btn.ghost:hover, a.btn.ghost:hover{
 	}
 }
 
+.btn-submit-ghost-off{
+	width: 100%;
+    margin: 0;
+    background: $highlight-turq;
+    color:$gray-dark-turq;
+    opacity: 0.2;
+}
+
 .ss-icon{
 	margin-right:4px;
 	position:relative;

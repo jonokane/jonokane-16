@@ -184,6 +184,12 @@
                                     <h5>Yahoo! Design Patterns</h5>
                                 </div>
                             </a>
+                            <a href="#" data-reveal-id="modal-box" class="modal-cta folio-ydpl">
+                                <div class="item">
+                                    <div class="thumb" style="background-image:url('img/work/ydpl-thumb.jpg')"></div>
+                                    <h5>Your project...</h5>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -197,64 +203,77 @@
                     <h3 class="fancy">Contact</h3>
                 </div>
             </div>
-            <!-- <form>
-<div class="form-inline">
-<div class="col-md-6">
-  <fieldset class="form-group">
-    <label for="formGroupExampleInput">What's your name?</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-  </fieldset>
-</div>
-<div class="col-md-6">
-  <fieldset class="form-group">
-    <label for="formGroupExampleInput2">And what's your email?</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-  </fieldset>
-</div>
-  </div>
-  <div class="form-group">
-    <label>Message
-        <textarea placeholder="So, what's up?" rows="5" required name="message" id="message"></textarea>
-    </label>
-  </div>
-</form> -->
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 contact-form">
+        <div id="contactMessage"></div>
+        <form name="contact_form" id="JqAjaxForm" class="">
             <div class="row">
-                <div class="col-md-10 col-md-offset-1 contact-form">
-                    <div id="contactMessage"></div>
-                    <form name="contact_form" id="JqAjaxForm">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <label for="name">Your Name
-                                        <input type="text" placeholder="What's your name?" required name="name" class="form-control input-block-level" id="name">
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <label for="email">Email
-                                        <input type="email" placeholder="And what's your email?" required name="email" class="form-control" id="email">
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                            <input type="text" placeholder="What's your name?" class="form-control" required name="name" id="name">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                            <input type="email" placeholder="And what's your email?" class="form-control" required name="email" id="email">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                            <textarea placeholder="So, what's up?" rows="15" required name="message" class="form-control" id="message"></textarea>
+                    </div>
+                    
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="input-group input-group-lg">
-                                    <label for="message">Message
-                                        <textarea placeholder="So, what's up?" rows="5" required name="message" class="form-control" id="message"></textarea>
-                                    </label>
-                                </div>
-                                <div class="input-group input-group-lg">
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <button class="btn btn-mini-ghost" value="submit">Say Hello</button>
-                                    </div>
-                                </div>
-                    </form>
+
+                                <button class="btn btn-submit-ghost-off" value="submit">Say Hello</button>
+                           
+                        </div>
                     </div>
-                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<!-- 
+<div class="row">
+    <div class="col-md-6">
+        <div class="" style="background:red;width:100%;border:1px solid #efefef;display:block;height:50px;"></div>
+    </div>
+    <div class="col-md-6">
+        <div class="" style="background:red;width:100%;border:1px solid #efefef;display:block;height:50px;"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="name">Your Name</label>
+                <input type="text" placeholder="What's your name?" class="form-control" required name="name" id="name">
+            
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="email">Email</label>
+                <input type="email" placeholder="And what's your email?" class="form-control" required name="email" id="email">
+            
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
                     <!--             
             <div class="row">
                 <div class="medium-10 medium-offset-1 columns">
@@ -309,7 +328,7 @@
                     <h6>Colophon</h6>
                     <p>This site was hand-built with love and fully <a href="https://github.com/jonokane/jk-folio-15">open-source</a>, in case you're interested in seeing how I built it. I used the following fantastic tools and frameworks:</p>
                     <ul>
-                        <li><a href="http://foundation.zurb.com/" target="_blank">Foundation</a></li>
+                        <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
                         <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
                         <li><a href="http://masonry.desandro.com/" target="_blank">Masonry</a></li>
                         <li><a href="https://typekit.com/" target="_blank">Typekit</a></li>
@@ -337,7 +356,7 @@
     </footer>
     <!-- Modal -->
     <!-- <div id="modal-box" class="reveal-modal modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog"></div> -->
-    <div id="modal-box" class="reveal-modal modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" tabindex='-1'></div>
+    <div id="modal-box" class="modal fade" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog" tabindex="-1"></div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="bower_components/tether/dist/js/tether.min.js"></script>

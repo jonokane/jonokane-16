@@ -131,6 +131,7 @@ $(document).ready(function() {
             $('#modal-box').load('folio-content/folio-shift.html', function(response, status, xhr) {
                 if (status == "success") {
                     $(this).modal('show');
+                    $(this).focus();
                 }
             });
         });

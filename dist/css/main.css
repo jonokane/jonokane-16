@@ -6576,6 +6576,13 @@ button.btn.ghost:hover, a.btn.ghost:hover {
   .btn-mini-ghost .ss-icon {
     font-weight: 700; }
 
+.btn-submit-ghost-off {
+  width: 100%;
+  margin: 0;
+  background: #4edfec;
+  color: #215F65;
+  opacity: 0.2; }
+
 .ss-icon {
   margin-right: 4px;
   position: relative;
