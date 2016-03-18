@@ -414,16 +414,23 @@ button.btn.ghost:hover, a.btn.ghost:hover{
 }
 
 a.close-reveal-modal{
+	font-size: 1rem;
 	cursor:pointer;
-	border:1px solid $gray-mellow-purp;
-	font-size: 1.5rem;
-    border-radius: 100px;
-    padding: 6px 8px 0px 8px;
     float:right;
     margin-top: 1rem;
-    // position:relative;
-    // top:10px;
-    // right:0px;
+    border:1px solid $gray-mellow-purp-light;
+    border-radius: 100px;
+    padding:2px 16px;
+}
+
+a.close-reveal-modal .ss-icon{
+	margin-right:0 !important;
+}
+
+
+a.close-reveal-modal:hover{
+	cursor:pointer;
+    border:1px solid $gray-mellow-purp;
 }
 
 $reveal-position-top: 10px;
@@ -472,6 +479,7 @@ $reveal-overlay-bg-old: $black;
 	border:3px solid $gray-med;
 	// border-radius:2px;
 	padding:6px;
+	overflow:hidden;
 	img{
 		// border:1px solid $gray-dark;
 		// border-radius:10px;

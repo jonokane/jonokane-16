@@ -60,24 +60,24 @@ $(document).ready(function() {
         }
     });
 
-    $(function() {
-        $('.folio-8t-site').on('click', function() {
-            event.preventDefault();
-            var $this = $(this).data('target');
-            $('#modal-box').load('folio-content/folio-8t-site.html', function(response, status, xhr) {
-                if (status == "success") {
-                    $(this).modal('show');
-                }
-            });
-        });
-    });
+    // $(function() {
+    //     $('.folio-8tracks-mixcreation').on('click', function() {
+    //         event.preventDefault();
+    //         var $this = $(this).data('target');
+    //         $('#modal-box').load('folio-content/folio-8tracks-mixcreation.html', function(response, status, xhr) {
+    //             if (status == "success") {
+    //                 $(this).modal('show');
+    //             }
+    //         });
+    //     });
+    // });
 
 
     $(function() {
-        $('.folio-8t-ftux').on('click', function() {
+        $('.folio-8tracks-ftux').on('click', function() {
             event.preventDefault();
             var $this = $(this).data('target');
-            $('#modal-box').load('folio-content/folio-8t-ftux.html', function(response, status, xhr) {
+            $('#modal-box').load('folio-content/folio-8tracks-ftux.html', function(response, status, xhr) {
                 if (status == "success") {
                     $(this).modal('show');
                 }

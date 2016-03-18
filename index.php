@@ -88,37 +88,31 @@
                     <h3 class="fancy">Work</h3>
                     <div class="row">
                         <div class="masonry js-masonry" id="folio-grid">
-                            <!--                       <a href="#" data-reveal-id="modal-box-1" class="modal-cta folio-fluence-marketing">
-                          <div class="item">
-                              <div class="thumb" style="background-image:url('img/work/fluence-marketing-thumb.png')"></div>
-                              <h5>8tracks</h5>
-                          </div>
-                      </a> -->
-                            <a href="#" data-reveal-id="modal-box-1" class="modal-cta folio-fluence-marketing">
+                            <!-- <a href="#" data-reveal-id="modal-box" class="modal-cta folio-8tracks-mixcreation">
                                 <div class="item">
-                                    <div class="thumb" style="background-image:url('img/work/fluence-marketing-thumb.png')"></div>
-                                    <h5>8tracks - </h5>
+                                    <div class="thumb" style="background-image:url('img/work/8tracks-mixcreation-thumb.png')"></div>
+                                    <h5>8tracks - Mix Creation</h5>
                                 </div>
-                            </a>
-                            <a href="#" data-reveal-id="modal-box-1" class="modal-cta folio-fluence-marketing">
+                            </a> -->
+                            <a href="#" data-reveal-id="modal-box" class="modal-cta folio-8tracks-ftux">
                                 <div class="item">
-                                    <div class="thumb" style="background-image:url('img/work/fluence-marketing-thumb.png')"></div>
+                                    <div class="thumb" style="background-image:url('img/work/8tracks-wires1.jpg')"></div>
                                     <h5>8tracks - FTUX</h5>
                                 </div>
                             </a>
-                            <a href="#" data-reveal-id="modal-box-1" class="modal-cta folio-fluence-marketing">
+                            <a href="#" data-reveal-id="modal-box" class="modal-cta folio-cinematiq">
                                 <div class="item">
-                                    <div class="thumb" style="background-image:url('img/work/fluence-marketing-thumb.png')"></div>
+                                    <div class="thumb" style="background-image:url('img/work/cinematiq-wire1.jpg')"></div>
                                     <h5>Cinematiq (Web App)</h5>
                                 </div>
                             </a>
-                            <a href="#" data-reveal-id="modal-box-1" class="modal-cta folio-fluence-marketing">
+                            <a href="#" data-reveal-id="modal-box" class="modal-cta folio-fluence-marketing">
                                 <div class="item">
                                     <div class="thumb" style="background-image:url('img/work/fluence-marketing-thumb.png')"></div>
                                     <h5>Fluence.io (Website)</h5>
                                 </div>
                             </a>
-                            <a href="#" data-reveal-id="modal-box-2" class="modal-cta folio-fluence-app">
+                            <a href="#" data-reveal-id="modal-box" class="modal-cta folio-fluence-app">
                                 <div class="item">
                                     <div class="thumb" style="background-image:url('img/work/fluence-app-thumb.jpg')"></div>
                                     <h5>Fluence.io (Web App)</h5>
@@ -184,12 +178,12 @@
                                     <h5>Yahoo! Design Patterns</h5>
                                 </div>
                             </a>
-                            <a href="#" data-reveal-id="modal-box" class="modal-cta folio-ydpl">
+                            <!-- <a href="#" data-reveal-id="modal-box" class="modal-cta folio-ydpl">
                                 <div class="item">
                                     <div class="thumb" style="background-image:url('img/work/ydpl-thumb.jpg')"></div>
                                     <h5>Your project...</h5>
                                 </div>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -331,17 +325,26 @@
                     <ul>
                         <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
                         <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
-                        <li><a href="http://masonry.desandro.com/" target="_blank">Masonry</a></li>
-                        <li><a href="http://kenwheeler.github.io/slick/" target="_blank">Slick</a></li>
+                        
                       </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
+                    <ul>
+                      <li><a href="http://masonry.desandro.com/" target="_blank">Masonry</a></li>
+                        <li><a href="http://kenwheeler.github.io/slick/" target="_blank">Slick</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
                     <ul>
                         <li><a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a></li>
                         <li><a href="http://adobe.com" target="_blank">Adobe CC</a></li>
-                        <li><a href="https://typekit.com/" target="_blank">Typekit</a></li>
-                        <li><a href="https://github.com/" target="_blank">Github</a></li>
                     </ul>
+                    </div>
+                    <div class="col-md-3">
+                    <ul>
+                      <li><a href="https://typekit.com/" target="_blank">Typekit</a></li>
+                        <li><a href="https://github.com/" target="_blank">Github</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md-4">

@@ -6592,13 +6592,20 @@ button.btn.ghost:hover, a.btn.ghost:hover {
   top: 2px; }
 
 a.close-reveal-modal {
+  font-size: 1rem;
   cursor: pointer;
-  border: 1px solid #C6C2CA;
-  font-size: 1.5rem;
-  border-radius: 100px;
-  padding: 6px 8px 0px 8px;
   float: right;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  border: 1px solid #DEDCE0;
+  border-radius: 100px;
+  padding: 2px 16px; }
+
+a.close-reveal-modal .ss-icon {
+  margin-right: 0 !important; }
+
+a.close-reveal-modal:hover {
+  cursor: pointer;
+  border: 1px solid #C6C2CA; }
 
 .modal-folio-content h2 {
   font-size: 3rem;
@@ -6627,7 +6634,8 @@ a.close-reveal-modal {
   margin: 10px;
   transition: all .3s ease-out;
   border: 3px solid #666;
-  padding: 6px; }
+  padding: 6px;
+  overflow: hidden; }
   .slider-nav li img {
     width: auto;
     height: 80px;
