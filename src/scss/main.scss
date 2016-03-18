@@ -23,6 +23,8 @@
 body{
 	font-family: "lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 	position: relative;
+	overflow-y: scroll;
+	height:100%;
 }
 p{
 	color:$gray-dark;
@@ -110,8 +112,13 @@ hr{
 	color:$highlight-green;
 }
 
-.nav-item a:focus {
+.nav-item a:focus{
+	color:$highlight-turq;
+}
+
+.nav-item.active a {
 	color:#fff;
+	background: $black;
 }
 
 //headings

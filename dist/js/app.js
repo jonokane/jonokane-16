@@ -249,8 +249,8 @@ $(document).ready(function() {
     //scrollspy
     $(function() {
         $('body').scrollspy({
-            target: '#jk-nav',
-            offset: 50
+            target: '#navbar',
+            offset: 150
         });
     });
 
