@@ -80,8 +80,8 @@
                 </div>
             </section>
         </div>
-        <section class="main-start">
-        </section>
+        <!-- <section class="main-start">
+        </section> -->
         <section class="content-area">
             <div class="container">
                 <div class="row">
